@@ -1,0 +1,569 @@
+{
+	// Place your snippets for markdown here. Each snippet is defined under a snippet name and has a prefix, body and 
+	// description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the 
+	// same ids are connected.
+	// Example:
+	// "Print to console": {
+	// 	"prefix": "log",
+	// 	"body": [
+	// 		"console.log('$1');",
+	// 		"$2"
+	// 	],
+	// 	"description": "Log output to console"
+	// }
+	
+	//=====================================Adding some style icons=============================================
+	//star
+	"star-infarctate": {
+		"prefix": "star-infarctate",
+		"body":"★"
+	},
+	"star": {
+		"prefix": "star",
+		"body":"☆"
+	},
+	
+	//circle
+	"circle-infarctate": {
+		"prefix": "circle-infarctate",
+		"body":"●"
+	},
+	"circle": {
+		"prefix": "circle",
+		"body":"○"
+	},
+	
+	//diamond
+		"diamond-infarctate": {
+			"prefix": "diamond-infarctate",
+			"body":"◆"
+		},
+		"diamond": {
+			"prefix": "diamond",
+			"body":"◇"
+		},
+		"diamond-style": {
+			"prefix": "diamond-style",
+			"body":"❖"
+		},
+		"email": {
+			"prefix": "email",
+			"body":"✉"
+		},
+	//square
+	"square-infarctate": {
+		"prefix": "square-infarctate",
+		"body":"■"
+	},
+	"square": {
+		"prefix": "square",
+		"body":"□"
+	},
+	
+	//triangle
+	"triangle-infarctate": {
+		"prefix": "triangle-infarctate",
+		"body":"▲"
+	},
+	"triangle": {
+		"prefix": "triangle",
+		"body":"△"
+	},
+	
+	//inverted-triangle
+	"triangle-infarctate inverted": {
+		"prefix": "triangle-infarctate inverted",
+		"body":"▼"
+	},
+	"triangle inverted": {
+		"prefix": "triangle inverted",
+		"body":"▽"
+	},
+	//ae
+	"ae": {
+		"prefix": "ae",
+		"body":"¤"
+	},
+	"AE": {
+		"prefix": "AE",
+		"body":"Æ"
+	},
+    //important
+	"important": {
+		"prefix": "important",
+		"body":"※"
+	},
+    //flower
+	"flower": {
+		"prefix": "flower",
+		"body":"✤"
+	},
+    //roman-num
+	"roman-1 upper": {
+		"prefix": "roman-1 upper",
+		"body":"Ⅰ"
+	},
+	"roman-2 upper": {
+		"prefix": "roman-2 upper",
+		"body":"Ⅱ"
+	},
+	"roman-3 upper": {
+		"prefix": "roman-3 upper",
+		"body":"Ⅲ"
+	},
+	"roman-4 upper": {
+		"prefix": "roman-4 upper",
+		"body":"Ⅳ"
+	},
+	"roman-5 upper": {
+		"prefix": "roman-5 upper",
+		"body":"Ⅴ"
+	},
+	"roman-6 upper": {
+		"prefix": "roman-6 upper",
+		"body":"Ⅵ"
+	},
+	"roman-7 upper": {
+		"prefix": "roman-7 upper",
+		"body":"Ⅶ"
+	},
+	"roman-8 upper": {
+		"prefix": "roman-8 upper",
+		"body":"Ⅷ"
+	},
+	"roman-9 upper": {
+		"prefix": "roman-9 upper",
+		"body":"Ⅸ"
+	},
+	"roman-10 upper": {
+		"prefix": "roman-10 upper",
+		"body":"Ⅹ"
+	},
+	"roman-11 upper": {
+		"prefix": "roman-11 upper",
+		"body":"Ⅺ"
+	},
+	"roman-12 upper": {
+		"prefix": "roman-12 upper",
+		"body":"Ⅻ"
+	},
+    //roman-num
+	"roman-1": {
+		"prefix": "roman-1 upper",
+		"body":"ⅰ"
+	},
+	"roman-2": {
+		"prefix": "roman-2",
+		"body":"ⅱ"
+	},
+	"roman-3": {
+		"prefix": "roman-3",
+		"body":"ⅲ"
+	},
+	"roman-4": {
+		"prefix": "roman-4",
+		"body":"ⅳ"
+	},
+	"roman-5": {
+		"prefix": "roman-5",
+		"body":"ⅴ"
+	},
+	"roman-6": {
+		"prefix": "roman-6",
+		"body":"ⅵ"
+	},
+	"roman-7": {
+		"prefix": "roman-7",
+		"body":"ⅶ"
+	},
+	"roman-8": {
+		"prefix": "roman-8",
+		"body":"ⅷ"
+	},
+	"roman-9": {
+		"prefix": "roman-9",
+		"body":"ⅸ"
+	},
+	"roman-10": {
+		"prefix": "roman-10",
+		"body":"ⅹ"
+    },
+	"correct": {
+		"prefix": "correct",
+		"body":"✔"
+	},
+	"wrong": {
+		"prefix": "wrong",
+		"body":"✘"
+    },
+	"heart": {
+		"prefix": "heart",
+        "body":"❤"
+    },
+    //Greek alphabet
+	"alpha upper": {
+		"prefix": "alpha upper",
+		"body":"Α"
+	},
+	"beta upper": {
+		"prefix": "beta upper",
+		"body":"Β"
+	},
+	"gamma upper": {
+		"prefix": "gamma upper",
+		"body":"Γ"
+	},
+	"delte upper": {
+		"prefix": "delte upper",
+		"body":"Δ"
+	},
+	"epsilon upper": {
+		"prefix": "epsilon upper",
+		"body":"Ε"
+	},
+	"zeta upper": {
+		"prefix": "zeta upper",
+		"body":"Ζ"
+	},
+	"eta upper": {
+		"prefix": "eta upper",
+		"body":"H"
+	},
+	"theta upper": {
+		"prefix": "theta upper",
+		"body":"Θ"
+	},
+	"iota upper": {
+		"prefix": "iota upper",
+		"body":"Ι"
+	},
+	"kappa upper": {
+		"prefix": "kappa upper",
+		"body":"Κ"
+	},
+	"lambda upper": {
+		"prefix": "lambda upper",
+		"body":"∧"
+	},
+	"mu upper": {
+		"prefix": "mu upper",
+		"body":"Μ"
+	},
+	"nu upper": {
+		"prefix": "nu upper",
+		"body":"Ν"
+	},
+	"xi upper": {
+		"prefix": "xi upper",
+		"body":"Ξ"
+	},
+	"pi upper": {
+		"prefix": "pi upper",
+		"body":"∏ "
+	},
+	"rho upper": {
+		"prefix": "rho upper",
+		"body":"Ρ"
+	},
+	"sigma upper": {
+		"prefix": "sigma upper",
+		"body":"∑"
+	},
+	"tau upper": {
+		"prefix": "tau upper",
+		"body":"Τ"
+	},
+	"upsilon upper": {
+		"prefix": "upsilon upper",
+		"body":"Υ"
+	},
+	"phi upper": {
+		"prefix": "phi upper",
+		"body":"Φ"
+	},
+	"chi upper": {
+		"prefix": "chi upper",
+		"body":"Χ"
+	},
+	"psi upper": {
+		"prefix": "psi upper",
+		"body":"Ψ"
+	},
+	"omega upper": {
+		"prefix": "omega upper",
+		"body":"Ω"
+	},
+	"omicron upper": {
+		"prefix": "omicron upper",
+		"body":"Ο"
+	},
+	"alpha": {
+		"prefix": "alpha",
+		"body":"α"
+	},
+	"beta": {
+		"prefix": "beta",
+		"body":"β"
+	},
+	"gamma": {
+		"prefix": "gamma",
+		"body":" γ"
+	},
+	"delte": {
+		"prefix": "delte",
+		"body":"δ"
+	},
+	"epsilon": {
+		"prefix": "epsilon",
+		"body":"ε"
+	},
+	"zeta": {
+		"prefix": "zeta",
+		"body":"ζ"
+	},
+	"eta": {
+		"prefix": "eta",
+		"body":"η"
+	},
+	"theta": {
+		"prefix": "theta",
+		"body":"θ"
+	},
+	"iota": {
+		"prefix": "iota",
+		"body":"ι"
+	},
+	"kappa": {
+		"prefix": "kappa",
+		"body":"κ"
+	},
+	"lambda": {
+		"prefix": "lambda",
+		"body":"λ"
+	},
+	"mu": {
+		"prefix": "mu",
+		"body":"μ"
+	},
+	"nu": {
+		"prefix": "nu",
+		"body":"ν"
+	},
+	"xi": {
+		"prefix": "xi",
+		"body":"ξ"
+	},
+	"omicron": {
+		"prefix": "omicron",
+		"body":"ο"
+	},
+	"pi": {
+		"prefix": "pi",
+		"body":"π"
+	},
+	"rho": {
+		"prefix": "rho",
+		"body":"ρ"
+	},
+	"sigma": {
+		"prefix": "sigma",
+		"body":"σ"
+	},
+	"tau": {
+		"prefix": "tau",
+		"body":"τ"
+	},
+	"upsilon": {
+		"prefix": "upsilon",
+		"body":"υ"
+	},
+	"phi": {
+		"prefix": "phi",
+		"body":"φ"
+	},
+	"chi": {
+		"prefix": "chi",
+		"body":"χ"
+	},
+	"psi": {
+		"prefix": "psi",
+		"body":"ψ"
+	},
+	"omega": {
+		"prefix": "omega",
+		"body":"ω"
+	},
+	"All": {
+		"prefix": "All",
+		"body":"§"
+	//
+	},
+	"female": {
+		"prefix": "female",
+		"body":"♀"
+	},
+	"male": {
+		"prefix": "male",
+		"body":"♂"
+	},
+	"music": {
+		"prefix": "music",
+		"body":"♪"
+	},
+	"arrow": {
+		"prefix": "arrow",
+		"body":"➤"
+	},
+	"degree-c": {
+		"prefix": "degree-c",
+		"body":"℃"
+	},
+	"degree-f": {
+		"prefix": "degree-f",
+		"body":"℉"
+	},
+	"trade mark": {
+		"prefix": "trade mark",
+		"body":"™"
+	},
+	"copyright": {
+		"prefix": "copyright",
+		"body": [
+			"©"
+		],
+		
+	},
+	"task lists": {
+		"prefix": "task-li",
+		"body": [
+			"- [ ] ${1:Text}",
+			"- [ ] ${2:Text}",
+			"- [ ] ${3:Text}"
+		],
+		"description": "task lists"
+	},
+	"foot note text": {
+		"prefix": "footnote-text",
+		"body": [
+			"^[${1:Text footnote}]$0"
+		],
+		"description": "添加一个脚注"
+	},
+	"space-beginning": {
+		"prefix": "space-beginning",
+		"body": [
+			"&emsp;&emsp;$0"
+		],
+		"description": "开头空两格"
+	},
+	"space": {
+		"prefix": "space",
+		"body": [
+			"&nbsp;$0"
+		],
+		"description": "添加html空格"
+	},
+	"index": {
+		"prefix": "index",
+		"body": "[toc]",
+		"description": "添加索引"
+	},
+	"link-text": {
+		"prefix": "link-text",
+		"body": [
+			"[${1:Text}](${2:Link} \"${3:Title}\"$4)$0"
+		],
+		"description": "链接文字"
+	},
+	//星级
+	"five-star": {
+		"prefix": "five-star",
+		"body": [
+			"★★★★★$0"
+		],
+	},
+	"four-star": {
+		"prefix": "four-star",
+		"body": [
+			"★★★★☆$0"
+		],
+	},
+	"three-star": {
+		"prefix": "three-star",
+		"body": [
+			"★★★☆☆$0"
+		],
+	},
+	"two-star": {
+		"prefix": "two-star",
+		"body": [
+			"★★☆☆☆$0"
+		],
+	},
+	"one-star": {
+		"prefix": "one-star",
+		"body": [
+			"★☆☆☆☆$0"
+		],
+	},
+	"no-star": {
+		"prefix": "no-star",
+		"body": [
+			"☆☆☆☆☆$0"
+		],
+	},
+	"onaji": {
+		"prefix": "onaji",
+		"body": [
+			"々"
+		],
+	},
+	"weather-sun": {
+		"prefix": "weather-sunny",
+		"body": [
+			"☀"
+		],
+	},
+	
+	"weather-cloud": {
+		"prefix": "weather-cloudy",
+		"body": [
+			"☁"
+		],
+	},
+	"weather-rain": {
+		"prefix": "weather-rain",
+		"body": [
+			"☂"
+		],
+	},
+	"weather-snow": {
+		"prefix": "weather-snow",
+		"body": [
+			"❄"
+		],
+	},
+	"telephone": {
+		"prefix": "telephone",
+		"body": [
+			"☎"
+		],
+	},
+	"greeting": {
+		"prefix": "greeting",
+		"body": [
+			"嘿！你好！"
+		],
+	},
+
+
+
+
+
+
+
+
+
+}
+  
